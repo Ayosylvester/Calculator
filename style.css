@@ -50,12 +50,18 @@ align-items: center;
     font-size: 100%;
     border: none;
     outline: none;
-    height:150px;
+    height:80px;
     font-size: 25px;
     width: max-content;
     overflow-x: scroll;
-    margin-left: 10px;
-    border-radius: 5%;
+  
+    border-radius: 1%;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     
+}
+@media (max-width:768px) {
+    #boxes{
+display: grid;
+
+}
 }
